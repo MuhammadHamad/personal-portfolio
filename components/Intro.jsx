@@ -9,7 +9,14 @@ function Intro() {
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
-          <motion.div className="div">
+          <motion.div
+          initial={{opacity: 0, scale: 0}}
+          animate={{opacity: 1, scale: 1}}
+          transition={{
+            typ:"tween",
+            duration: 0.2,
+          }}
+          >
             <Image
               src="https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYXJkfGVufDB8fDB8fHww"
               alt="Pic Portrait"
