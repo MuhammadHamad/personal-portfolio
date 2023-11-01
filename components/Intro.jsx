@@ -34,8 +34,7 @@ function Intro() {
               transition={{
                 type: "spring",
                 stiffness: 130,
-                delay: 0.1,
-                duration: 0.7,
+               
               }}
             >
               👏
